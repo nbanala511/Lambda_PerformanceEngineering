@@ -1,11 +1,6 @@
 # 🚀 AWS Lambda: Memory Settings, Response Time, and Cost—Finding the Sweet Spot! 🚀
 
-When configuring Lambda functions, striking the right balance between performance and cost is crucial—but often misunderstood. I recently ran benchmarks with the following settings and saw some fascinating results:
-
-🔍 Takeaways:  
-⭐ Response time dropped sharply (381 ms ➡️ 155 ms) as I moved from 128 MB to 512 MB.  
-⭐ Further increases in memory produced diminishing returns for performance—little improvement above 512 MB.  
-⭐ However, cost crept up steadily as memory increased, with the largest jump between 1024 MB and 2048 MB.  
+When configuring Lambda functions, striking the right balance between performance and cost is crucial—but often misunderstood. I recently ran benchmarks and saw some fascinating results: 
 
 🧠 How to choose the right Lambda memory:  
 🏀 Start with a benchmark: Run your functions at multiple memory settings and measure average response time and execution cost.  
