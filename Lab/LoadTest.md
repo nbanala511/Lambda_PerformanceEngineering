@@ -20,7 +20,8 @@
 8. past the url into the url section in the postman  
 9. Click on "Save" in the top right.  
 10. Click on "Send".  
-You should see the response. 
+You should see the response similar to the response in the below images depending on the number of item added. 
+<img width="1123" height="800" alt="APIGW_URL" src="Images/Postman_Response.PNG" />  
 
 ### Load Test  
 1. Right click on the new request you just created.  
