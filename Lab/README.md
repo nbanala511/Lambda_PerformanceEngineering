@@ -1,6 +1,6 @@
 ## Lab Overview
 Let's start with the High Level Design.
-<img width="908" height="269" alt="lab_overview_diagram" src="../Images/lab_overview_diagram.PNG" />  
+<img width="908" height="269" alt="lab_overview_diagram" src="Images/lab_overview_diagram.PNG" />  
 An Amazon API Gateway is a collection of resources and methods. For this tutorial, you create one resource (DynamoDBManager) and define one method (POST) on it. The method is backed by a Lambda function (LambdaFunctionOverHttps). That is, when you call the API through an HTTPS endpoint, Amazon API Gateway invokes the Lambda function.
 
 The POST method on the DynamoDBManager resource supports the following DynamoDB operations:
