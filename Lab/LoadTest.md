@@ -15,7 +15,7 @@
 }
 ```
 7. Get the url from API Gateway stages we created previously  
-<img width="1123" height="564" alt="APIGW_URL" src="https://github.com/user-attachments/assets/0df6745a-ee90-4acf-a700-ee569cae1973" />  
+<img width="1123" height="564" alt="APIGW_URL" src="Images/APIGW_URL.PNG" />  
 
 8. past the url into the url section in the postman  
 9. Click on "Save" in the top right.  
@@ -24,10 +24,10 @@ You should see the response.
 
 ### Load Test  
 1. Right click on the new request you just created.  
-<img width="1127" height="488" alt="LoadTest_setup" src="https://github.com/user-attachments/assets/9c3a1c69-94ef-4133-abd1-863c3d1dd4e8" />  
+<img width="1127" height="488" alt="LoadTest_setup" src="Images/LoadTest_setup.PNG" />  
 2. Click on "Performance", then select "Ramp up" under load profile  
 3. select “10” in Virtual users, and Test duration as 2 mins. Click Run!
-<img width="508" height="696" alt="Ramup_loadtest" src="https://github.com/user-attachments/assets/7a7e7443-8db0-414f-8163-66443f9460c4" />
+<img width="508" height="696" alt="Ramup_loadtest" src="Images/Ramup_loadtest.PNG" />
 4. Atfer the load test is run you can see the result. (YOu can also export the result as pdf).  
 
 
