@@ -30,9 +30,9 @@ You should see the response similar to the response in the below images dependin
 3. select “10” in Virtual users, and Test duration as 2 mins. Click Run!
 <img width="508" height="696" alt="Ramup_loadtest" src="Images/Ramup_loadtest.PNG" />
 4. Atfer the load test is run you can see the result. (You can also export the result as pdf).  
+<img width="508" height="696" alt="Ramup_loadtest" src="Images/LoadTest_Output.PNG" />
 
-
-#### Now that you have the results from the load test lets change the lambda default memory (128 MB) to some increased memory and run the load test again and see the difference in the performance.
+#### Now that you have the results from the load test, lets change the lambda default memory (128 MB) to some increased memory and run the load test again and see the difference in the performance.
 
 
 
