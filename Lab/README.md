@@ -77,7 +77,7 @@ We need to create a custom policy for least privilege
     }
 ```
 
-![create-policy](https://github.com/user-attachments/assets/2f4ea890-a2be-4fc8-85f9-24574ad76ef4)  
+![create-policy](Images/create-policy.jpg)  
 4. Give name "lambda-custom-policy", and click "Create policy" on botom right  
 ### Create Lambda IAM Role  
 Create the execution role that gives your function permission to access AWS resources.
@@ -93,7 +93,7 @@ To create an execution role
     - Role name – lambda-apigateway-role.  
     - Click "Create role"  
 
-![create-lambda-role](https://github.com/user-attachments/assets/23fe8405-553c-456b-b1c8-d306ed3750d5)  
+![create-lambda-role](Images/create-lambda-role.jpg)  
 ## Create Lambda Function  
 ### To create the function  
 1. Click "Create function" in AWS Lambda Console  
